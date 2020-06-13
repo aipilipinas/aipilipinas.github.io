@@ -1,0 +1,12 @@
+.person {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.person > h4 {
+    margin-bottom: 0;
+}
+
+.person > p {
+    margin-top: 2px;
+}

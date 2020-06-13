@@ -1,0 +1,75 @@
+.hero-image {
+    width:100%;
+}
+
+.mobile-only {
+    display: block;
+}
+
+.jumboImage{
+    max-width: 100%;
+    width: auto;
+    height: 55vw;
+    max-height: 70vw;
+    background-image: url("/assets/images/heroimage.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    box-shadow: 10px 10px 30px silver;
+}
+.jumbo {
+    width:100% !important;
+}
+
+.container {
+    width: 100%;
+}
+
+.breather {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.card {
+    background-color: #EB2325;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.card-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: inherit;
+}
+
+.card-button {
+    text-decoration: none;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.mobile-only {
+    display: none;
+}
+
+
+@media only screen and (min-width : 320px) and (max-width : 1100px) {
+    .jumboImage {
+        height: 100vw;
+        max-height: 100vw !important;
+    }
+    .desktop-only {
+        display: none;
+    }
+    .mobile-only {
+        display: block;
+    }
+}
