@@ -23,13 +23,6 @@ seo:
   # meta_twitter_site: "@zerostaticio"
   # meta_twitter_creator: "@zerostaticio"
 
-collections:
-  services:
-    output: true
-    permalink: /services/:path/
-  team:
-    output: true
-    permalink: /team/:path/
 
 defaults:
   - scope:
