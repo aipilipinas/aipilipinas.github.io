@@ -8,9 +8,9 @@ main:
   - name: "Events"
     url: "/events/"
     weight: 4
-  - name: "Team"
-    url: "/team/"
-    weight: 5
+  # - name: "Team"
+  #   url: "/team/"
+  #   weight: 5
   # - name: "Contact"
   #   url: "/contact/"
   #   weight: 5
