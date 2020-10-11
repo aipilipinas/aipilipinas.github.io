@@ -18,38 +18,29 @@ bodyClass: page-services-list
   </div>
 </div>
 
-<div class="strip">
-  <div class="container pt-6 pb-6">
-    <H1>Upcoming Events</H1>
-    <div class="row">
-      {% for service in site.services %}
-      <div class="col-12 col-md-6 mb-3">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
-            </h2>
-            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-  </div>
-</div>
 
-<div class="container pt-6 pb-6">
-    <H1>Past Events</H1>
+  <div class="container">
+    <H1>Upcoming Events</H1>
+    {% for event in site.data.events %}
     <div class="row">
-      {% for service in site.services %}
-      <div class="col-12 col-md-6 mb-3">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
-            </h2>
-            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
-          </div>
+      <div class="col-lg-3">
+        {% if event.image %}
+        <div class="feature-image"><img src="{{ event.image | relative_url }}" />
         </div>
+        {% endif %}
+        <div class="col-lg ml-3 mr-3">
+          <h5 class="font-weight-bolder text-primary"> 
+          {{ event.title }}  </h5>
+          <p>{{ event.date }}</p>
+          <p>{{ event.description }}</p>
+          
+          {% if event.url %}    
+          <a href="{{ event.url }}" class="btn btn-primary" target="_blank"> More details </a>
+          {% endif %}            
+        </div>
+
       </div>
-      {% endfor %}
+    </div>
+    {% endfor %}
   </div>
+
