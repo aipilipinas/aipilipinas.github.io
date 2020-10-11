@@ -18,30 +18,27 @@ bodyClass: page-services-list
   </div>
 </div>
 
-
-  <div class="container">
+<div class="strip strip-grey">
+<div class="container pt-6 pb-6">
     <H1>Upcoming Events</H1>
-    {% for event in site.data.events %}
-    <div class="card bg-light">
-      <div class="card-body row">
-      <div class="col-2">
-        {% if event.image %}
-        <img src="{{ event.image | relative_url }}" />
-      </div>
-        {% endif %}
-      <div class="col-10">
-          <h3 class="card-title"> 
-          {{ event.title }}  </h3>
-          <h5 class="card-subtitle mb-2 text-muted">{{ event.date }}</h5>
-          <p class="card-text">{{ event.description }}</p>
-          
-          {% if event.url %}    
-          <a href="{{ event.url }}" class="btn btn-primary" target="_blank"> More details </a>
-          {% endif %}           
+    <div class="row">
+      {% for event in site.data.events %}
+      <div class="col-12 col-md-6 mb-3">
+        <div class="service service-summary">
+          <div class="service-content">
+            <h2 class="service-title">
+              {{ event.title }}
+            </h2>
+            <h4>
+              {{ event.date }}
+            </h4>
+            <p>{{ event.description }}</p>
+          </div>
         </div>
       </div>
-      </div>
       {% endfor %}
-    </div>
+  </div>
+</div>
+</div>
 
 
