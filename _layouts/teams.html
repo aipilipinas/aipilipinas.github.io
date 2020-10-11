@@ -20,22 +20,24 @@ bodyClass: page-team-list
 
 <div class="container pt-6 pb-6">
     <div class="row">
-        {% for team in site.team %}
+        {% for team in site.data.team %}
         <div class="col-12 col-md-6 mb-2">
             <div class="team team-summary team-summary-large">
                 {% if team.image %}
                 <div class="team-image">
-                    <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                    <img alt="{{ team.name }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
                 </div>
                 {% endif %}
                 <div class="team-meta">
-                    <h2 class="team-name">{{ team.title }}</h2>
+                    <h2 class="team-name">{{ team.name }}</h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
                     {% if team.linkedinurl %}
                     <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a>
                     {% endif %}
+                    {% if team.linkedinurl %}
+                    <a target="_blank" href="{{ team.twitterurl }}">Twitter</a>
+                    {% endif %}
                 </div>
-                <div class="team-content">{{ team.content | truncate: 120 }}</div>
             </div>
         </div>
         {% endfor %}
