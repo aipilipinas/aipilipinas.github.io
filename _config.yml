@@ -30,7 +30,7 @@ collections:
 
 defaults:
   - scope:
-      type: services
+      type: events
     values:
       layout: service
       bodyClass: page-services-single
