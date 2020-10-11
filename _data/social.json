@@ -1,12 +1,17 @@
 [
   {
-    "name": "Github",
-    "link": "https://github.com/zerostaticthemes/jekyll-serif-theme",
-    "image": "images/social/github.svg"
+    "name": "Facebook",
+    "link": "https://www.facebook.com/AIPilipinas",
+    "image": "images/social/facebook.svg"
   },
   {
-    "name": "Twitter",
-    "link": "https://twitter.com/zerostaticio",
-    "image": "images/social/twitter.svg"
+    "name": "Meetup",
+    "link": "https://www.meetup.com/AIPilipinas/",
+    "image": "images/social/meetup.svg"
+  },
+  {
+    "name": "YouTube",
+    "link": "https://www.youtube.com/playlist?list=PLRmBxRam5lT2S4c32IMuA98lOqB7ecIlX",
+    "image": "images/social/youtube.svg"
   }
 ]
