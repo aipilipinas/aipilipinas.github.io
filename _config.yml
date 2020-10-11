@@ -1,0 +1,49 @@
+baseurl: ''
+exclude: ['README.md']
+permalink: pretty
+title: 'Jekyll Serif'
+
+google_analytics_id: null
+homepage:
+  show_call_box: true
+logo:
+  mobile: "images/logo/logo-mobile.svg"
+  desktop: "images/logo/logo.svg"
+  desktop_height: "36px"
+footer:
+  copyright_text: 'Free Jekyll theme by <a class="zerostatic" href="https://www.zerostatic.io">www.zerostatic.io</a>'
+
+seo:
+  meta_og_title: "AI Pilipinas"
+  meta_og_type: "website"
+  meta_og_url: "https://www.aipilipinas.org"
+  meta_og_image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
+  meta_og_description: "AI Pilipinas is a tech community which aims to share knowledge amongsts its members to help upskill Filipinos on Machine Learning and Artificial Intelligence. The group is run by a group of volunteers."
+  # meta_twitter_card: "summary"
+  # meta_twitter_site: "@zerostaticio"
+  # meta_twitter_creator: "@zerostaticio"
+
+collections:
+  services:
+    output: true
+    permalink: /services/:path/
+  team:
+    output: true
+    permalink: /team/:path/
+
+defaults:
+  - scope:
+      type: services
+    values:
+      layout: service
+      bodyClass: page-services-single
+  - scope:
+      path: 'images'
+    values:
+      image: true
+
+sass:
+  style: compact # possible values: nested expanded compact compressed
+
+plugins:
+  - jekyll-environment-variables
