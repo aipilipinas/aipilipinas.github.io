@@ -1,6 +1,6 @@
 [
   {
-    "title": "Free Consultation",
+    "title": "TensorFlow Project Showcase",
     "date": "text",
     "description": "New clients recieve an obligation free consultation.",
     "url": "/services/accounting/"
@@ -9,7 +9,7 @@
     "title": "Certified Accountants",
     "date": "text",
     "description": "All members of our team are certified accountants.",
-    "image": "images/features/noun_The Process_1885341.svg"
+    "image": "https://www.meetup.com/AIPilipinas/events/271617253/"
   },
   {
     "title": "Tax Compliance",

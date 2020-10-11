@@ -1,11 +1,11 @@
 ---
 title: Events
 layout: services
-intro_image: "images/illustrations/reading.svg"
+intro_image: "images/illustrations/ponting.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Services that grow with your business
+# Events
 
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+All of our events are FREE thruogh the help of our partners and sponsors.
