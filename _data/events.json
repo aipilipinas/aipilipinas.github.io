@@ -1,20 +1,8 @@
 [
   {
     "title": "TensorFlow Project Showcase",
-    "date": "text",
-    "description": "New clients recieve an obligation free consultation.",
-    "url": "/services/accounting/"
-  },
-  {
-    "title": "Certified Accountants",
-    "date": "text",
-    "description": "All members of our team are certified accountants.",
-    "url": "https://www.meetup.com/AIPilipinas/events/271617253/"
-  },
-  {
-    "title": "Tax Compliance",
-    "date": "text",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "url": "images/features/noun_3d modeling_1885342.svg"
+    "date": "October to December 2020",
+    "description": "Showcase your TensorFlow Projects and get a chance to win a FREE EXAM CREDIT to get your TensorFlow Developer Certificate and many more!",
+    "url": "/events/tfshowcase"
   }
 ]
