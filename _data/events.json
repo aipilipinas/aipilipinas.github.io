@@ -9,12 +9,12 @@
     "title": "Certified Accountants",
     "date": "text",
     "description": "All members of our team are certified accountants.",
-    "image": "https://www.meetup.com/AIPilipinas/events/271617253/"
+    "url": "https://www.meetup.com/AIPilipinas/events/271617253/"
   },
   {
     "title": "Tax Compliance",
     "date": "text",
     "description": "We stay up to date on the latest changes to the tax code.",
-    "image": "images/features/noun_3d modeling_1885342.svg"
+    "url": "images/features/noun_3d modeling_1885342.svg"
   }
 ]
