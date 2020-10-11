@@ -18,36 +18,38 @@ bodyClass: page-services-list
   </div>
 </div>
 
-<div class="container pt-6 pb-6">
-  ## Upcoming Events
-  <div class="row">
-    {% for service in site.services %}
-    <div class="col-12 col-md-6 mb-3">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
-          </h2>
-          <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
+<div class="strip">
   <div class="container pt-6 pb-6">
-  ## Past Events
-  <div class="row">
-    {% for service in site.services %}
-    <div class="col-12 col-md-6 mb-3">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
-          </h2>
-          <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+    <H1>Upcoming Events</H1>
+    <div class="row">
+      {% for service in site.services %}
+      <div class="col-12 col-md-6 mb-3">
+        <div class="service service-summary">
+          <div class="service-content">
+            <h2 class="service-title">
+              <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
+            </h2>
+            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+          </div>
         </div>
       </div>
-    </div>
-    {% endfor %}
+      {% endfor %}
   </div>
 </div>
+
+<div class="container pt-6 pb-6">
+    <H1>Past Events</H1>
+    <div class="row">
+      {% for service in site.services %}
+      <div class="col-12 col-md-6 mb-3">
+        <div class="service service-summary">
+          <div class="service-content">
+            <h2 class="service-title">
+              <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
+            </h2>
+            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+  </div>
