@@ -7,7 +7,7 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-#Philippine community for Artificial Intelligence & Machine Learning 
+# Philippine community for Artificial Intelligence & Machine Learning 
 
 
 
