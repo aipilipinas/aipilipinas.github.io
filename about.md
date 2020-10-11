@@ -3,7 +3,7 @@ title: 'About'
 date: 2018-02-22T17:01:34+07:00
 layout: 'page'
 ---
-AI Pilipinas is community of Filipinos who are continuously upskilling tech capabilities and learn Machine Learning/Artificial Intelligence. These skills can either be used for research purposes and/or developing and deploying end-to-end solutions.
+AI Pilipinas is a community of Filipinos who are continuously upskilling tech capabilities and learn Machine Learning/Artificial Intelligence. These skills can either be used for research purposes and/or developing and deploying end-to-end solutions.
 
 This community is open to different skill levels and educational backgrounds. This group aims to build a community of AI researchers and engineers and promote a collaborative exchange of knowledge, best practices, and tips in applying machine learning. Making the Philippines one of the globally recognized leaders and experts in AI.
 

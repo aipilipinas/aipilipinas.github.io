@@ -1,12 +1,10 @@
 ---
 layout: home
-title: Jekyll Serif Theme
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
-intro_image: "images/illustrations/pointing.svg"
+title: AI Pilipinas
+description: AI Pilipinas is a tech community which aims to share knowledge amongsts its members to help upskill Filipinos on Machine Learning and Artificial Intelligence. The group is run by a group of volunteers.
+intro_image: "images/illustrations/heroimage.png"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Serif - A Jekyll Business Theme.
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
