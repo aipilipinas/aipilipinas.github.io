@@ -23,6 +23,10 @@ seo:
   # meta_twitter_site: "@zerostaticio"
   # meta_twitter_creator: "@zerostaticio"
 
+collections:
+  events:
+    output: true
+    permalink: /events/:path/
 
 defaults:
   - scope:
