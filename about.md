@@ -3,49 +3,18 @@ title: 'About'
 date: 2018-02-22T17:01:34+07:00
 layout: 'page'
 ---
+AI Pilipinas is community of Filipinos who are continuously upskilling tech capabilities and learn Machine Learning/Artificial Intelligence. These skills can either be used for research purposes and/or developing and deploying end-to-end solutions.
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+This community is open to different skill levels and educational backgrounds. This group aims to build a community of AI researchers and engineers and promote a collaborative exchange of knowledge, best practices, and tips in applying machine learning. Making the Philippines one of the globally recognized leaders and experts in AI.
 
-## Ne verba patulosque numen vix libet
+## Our Vision
+1. To make the Philippines a global hub for AI research and development.
+2. Build a collaborative AI community that will bring positive impacts.
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
-
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
-
-## Postquam tamen
-
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
-
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
-
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
-
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+## Community Guidelines
+1. Be nice. We're all part of the same community, so be friendly, be welcoming, and generally be a nice person.
+2. Be someone that other people want to be around.
+3. Be respectful and constructive. We're a very diverse group, so we're not going to agree all the time. Remember to be respectful and constructive with your communication to your fellow peers.
+4. Be collaborative. Work together! We can learn a lot from each other. Share knowledge, update the wiki, help each other out.
+5. Participate. This is YOUR community, so be a part of it! Join in on discussions, show up for in-person meetings regularly, offer feedback, and offer to help implement that feedback!
