@@ -25,10 +25,10 @@ bodyClass: page-services-list
     <div class="row">
       <div class="col-lg-3">
         {% if event.image %}
-        <div class="feature-image"><img src="{{ event.image | relative_url }}" />
-        </div>
+        <img src="{{ event.image | relative_url }}" />
+      </div>
         {% endif %}
-        <div class="col-lg ml-3 mr-3">
+      <div class="col-lg ml-3 mr-3">
           <h5 class="font-weight-bolder text-primary"> 
           {{ event.title }}  </h5>
           <p>{{ event.date }}</p>
