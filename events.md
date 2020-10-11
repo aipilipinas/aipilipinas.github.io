@@ -8,4 +8,4 @@ intro_image_hide_on_mobile: false
 
 # Events
 
-All of our events are FREE thruogh the help of our partners and sponsors.
+All of our events are FREE through the help of our partners and sponsors.

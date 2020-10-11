@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Breaking into AI",
+    "date": "July 15, 2020 | 7PM",
+    "description": "For this Pie & AI meetup, we invited industry practitioners to share their stories on how they were able to build a career in AI. Listen, be inspired, and learn how you can start your own break into AI.",
+    "url": "https://www.meetup.com/AIPilipinas/events/271617253/"
+  },
+  {
+    "title": "AI and Coding for Kids - Whys and Hows",
+    "date": "June 30, 2020 | 7PM",
+    "description": "In the last few years, we saw that the pace of this progress is accelerating. We know that we have to start teaching computer programming and A.I. to children. Children are naturally curious and are willing to explore making things without thinking much about grades, much less their “career”. As makers, kids can learn technology and cultivate their curiosity using simple tools like the BBC micro:bit.",
+    "url": "https://www.meetup.com/AIPilipinas/events/271240767/"
+  },
+  {
+    "title": "Exploring SnapML & H2O Driverless AI",
+    "date": "June 24, 2020 | 7PM",
+    "description": "This talk by Gilbert Thomas will cover the two key ML technologies that IBM Systems offers. Firstly is SnapML, an ML library to accelerate ML training by leveraging on GPUs. He will also cover H2O Driverless AI, an AutoML solution that IBM offers, and present key use cases that can benefit from them. Finally, he will briefly cover our server offering that the solutions have been optimized to run on.",
+    "url": "https://www.meetup.com/AIPilipinas/events/271244395/"
+  }
+]
