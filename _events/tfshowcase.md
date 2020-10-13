@@ -37,12 +37,6 @@ November 27 | Deadline of Application Submission
 December 4 | Panel Judging and Public Voting
 December 11 | Announcement of Winners
 
-Date | Activity
---- | ---
-October to November | Training and Workshop
-November 27 | Deadline of Application Submission
-December 4 | Panel Judging and Public Voting
-December 11 | Announcement of Winners
 
 ## Trainings and Workshop
 | Date | Topic                              | Speaker | Registraion Link |
@@ -52,6 +46,15 @@ December 11 | Announcement of Winners
 | TBA  | Image Classification in TensorFlow | TBA     | TBA              |
 | TBA  | Building a TensorFlow Lite App     | TBA     | TBA              |
 | TBA  | Building a TensorFlow.JS App       | TBA     | TBA              |
+
+
+Date | Activity | Speaker | Registration Link
+--- | --- | --- | ---
+TBA | Introduction to TensorFlow | TBA | TBA
+TBA | Text Classification in TensorFlow | TBA | TBA
+TBA | Image Classification in TensorFlow | TBA | TBA
+TBA | Building a TensorFlow Lite App | TBA | TBA
+TBA | Building a TensorFlow.JS App | TBA | TBA
 
 <!-- 
 ![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
