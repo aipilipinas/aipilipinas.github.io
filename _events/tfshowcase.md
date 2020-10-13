@@ -47,11 +47,12 @@ December 11 | Announcement of Winners
 
 Date | Activity | Speaker | Registration Link
 --- | --- | --- | ---
-TBA | Introduction to TensorFlow | TBA | TBA
-TBA | Text Classification in TensorFlow | TBA | TBA
-TBA | Image Classification in TensorFlow | TBA | TBA
-TBA | Building a TensorFlow Lite App | TBA | TBA
-TBA | Building a TensorFlow.JS App | TBA | TBA
+TBA | Introduction to TensorFlow | Ralph Vincent Regalado | TBA
+TBA | Building your First Neural Network on TensorFlow | Rodolfo Ferro Perez | TBA
+TBA | Text Classification in TensorFlow | Thierno Ibrahima | TBA
+TBA | Image Classification in TensorFlow | Rodolfo Ferro Perez | TBA
+TBA | Building a TensorFlow Lite App | Henry Ruiz | TBA
+TBA | Building a TensorFlow.JS App | Henry Ruiz | TBA
 
 ## Resources
 - [TensorFlow Tutorials](https://www.tensorflow.org/tutorials)
