@@ -5,13 +5,49 @@ featured: true
 weight: 1
 ---
 
-TBA
+**TensorFlow Project Showcase** aims to encourage everyone to explore the possibilities of Machine Learning using [TensorFlow](https://www.tensorflow.org/), an end-to-end open source platform for machine learning. This initiative aims to showcase Filipino talents in building applications that uses the capability of Machine Learning. This event is supported by **Google Developers**.
 
-# Mechanics
+## Mechanics
+1. Participants can either be individuals or teams. Teams should consists of not more than three (3) members.
+2. Participants can submit multiple entries provided that all of them meet the eligibility criteria/ requirements.
+3. Participants must completely fill out and submit the Project Application Review Form. The application deadline is on November 27, 2020.
+4. Applications submitted should be your own original work and haven't been submitted to any contest. 
+5. Applications submitted to the contest should be publicly accesible via web or mobile, and must be an open-source project. Code should be uploaded to any publicly acessible repository such as Github.
+6. The winner will be selected based on a panel judging and public votes.
 
-# Prizes
 
-# Schedule
+## Judging Criteria
+- Functionality (30%): Does the app work? Did the team achieve the goal they defined? Was the solution innovative?
+- Technology (40%): How technically impressive was the app? Was the app built difficult? Did it use a particularly clever technique? Did the technology involved make you go "Wow"?
+- Design (20%): Did the participant put thought into the user experience? How well designed is the interface?
+- Public Vote (10%)
+
+
+## Prizes
+- **Winners** will receive a support to take **[TensorFlow Developer Certificate](https://www.tensorflow.org/certificate)** which is worth 100USD
+- **All accepted applications** will also get a chance to win **prizes** such as Google Home Mini and Chromecast through our raffle!
+
+
+
+## Contest Schedule
+| Date | Activity |
+| ----------- | ----------- |
+| October - November | Training and Workshop |
+| November 27 | Deadline of Submission |
+| December 4 | Panel Judging and Public Voting |
+| December 11 | Announcemnt of Winners |
+
+
+
+## Trainings and Workshop
+| Date | Topic | Speaker | Registraion Link |
+| ----------- | ----------- | ----------- | ----------- |
+| TBA | Introduction to TensorFlow | TBA | TBA |
+| TBA | Text Classification in TensorFlow | TBA | TBA |
+| TBA | Image Classification in TensorFlow | TBA | TBA |
+| TBA | Building a TensorFlow Lite App | TBA | TBA |
+| TBA | Building a TensorFlow.JS App  | TBA | TBA |
+
 <!-- 
 ![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
  -->
