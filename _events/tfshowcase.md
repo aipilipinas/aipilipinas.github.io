@@ -55,6 +55,9 @@ TBA | Image Classification in TensorFlow | TBA | TBA
 TBA | Building a TensorFlow Lite App | TBA | TBA
 TBA | Building a TensorFlow.JS App | TBA | TBA
 
+## Resources
+- [TensorFlow Tutorials](https://www.tensorflow.org/tutorials)
+- [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
 
 
 ## Supported By
