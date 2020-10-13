@@ -7,6 +7,9 @@ weight: 1
 
 **TensorFlow Project Showcase** aims to encourage everyone to explore the possibilities of Machine Learning using [TensorFlow](https://www.tensorflow.org/), an end-to-end open source platform for machine learning. This initiative aims to showcase Filipino talents in building applications that uses the capabilities of Machine Learning. This event is supported by **Google Developers**.
 
+![TF Showcase](https://aipilipinas.org/images/tfshowcase.png)
+
+
 ## Mechanics
 1. Participants can either be individuals or teams. Teams should consists of not more than three (3) members.
 2. Participants can submit multiple entries provided that all of them meet the eligibility criteria/ requirements.
@@ -30,6 +33,7 @@ weight: 1
 
 
 ## Contest Schedule
+
 Date | Activity
 --- | ---
 October to November | Training and Workshop
@@ -39,14 +43,6 @@ December 11 | Announcement of Winners
 
 
 ## Trainings and Workshop
-| Date | Topic                              | Speaker | Registraion Link |
-|------|------------------------------------|---------|------------------|
-| TBA  | Introduction to TensorFlow         | TBA     | TBA              |
-| TBA  | Text Classification in TensorFlow  | TBA     | TBA              |
-| TBA  | Image Classification in TensorFlow | TBA     | TBA              |
-| TBA  | Building a TensorFlow Lite App     | TBA     | TBA              |
-| TBA  | Building a TensorFlow.JS App       | TBA     | TBA              |
-
 
 Date | Activity | Speaker | Registration Link
 --- | --- | --- | ---
