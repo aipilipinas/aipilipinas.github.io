@@ -17,7 +17,7 @@ seo:
   meta_og_title: "AI Pilipinas"
   meta_og_type: "website"
   meta_og_url: "https://www.aipilipinas.org"
-  meta_og_image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
+  meta_og_image: "https://aipilipinas.org/images/bg.png"
   meta_og_description: "AI Pilipinas is a tech community which aims to share knowledge amongsts its members to help upskill Filipinos on Machine Learning and Artificial Intelligence. The group is run by a group of volunteers."
   # meta_twitter_card: "summary"
   # meta_twitter_site: "@zerostaticio"
