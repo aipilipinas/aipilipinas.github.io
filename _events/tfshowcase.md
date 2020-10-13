@@ -18,6 +18,7 @@ weight: 1
 6. The winner will be selected based on a panel judging and public votes.
 
 
+
 ## Judging Criteria
 - Functionality (30%): Does the app work? Did the team achieve the goal they defined? Was the solution innovative?
 - Technology (40%): How technically impressive was the app? Was the app built difficult? Did it use a particularly clever technique? Did the technology involved make you go "Wow"?
@@ -25,9 +26,11 @@ weight: 1
 - Public Vote (10%)
 
 
+
 ## Prizes
 - **Winners** will receive a support to take **[TensorFlow Developer Certificate](https://www.tensorflow.org/certificate)** which is worth 100USD
 - **All accepted applications** will also get a chance to win **prizes** such as Google Home Mini and Chromecast through our raffle!
+
 
 
 
@@ -41,6 +44,7 @@ December 4 | Panel Judging and Public Voting
 December 11 | Announcement of Winners
 
 
+
 ## Trainings and Workshop
 
 Date | Activity | Speaker | Registration Link
@@ -50,6 +54,7 @@ TBA | Text Classification in TensorFlow | TBA | TBA
 TBA | Image Classification in TensorFlow | TBA | TBA
 TBA | Building a TensorFlow Lite App | TBA | TBA
 TBA | Building a TensorFlow.JS App | TBA | TBA
+
 
 
 ## Supported By
