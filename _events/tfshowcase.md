@@ -5,9 +5,9 @@ featured: true
 weight: 1
 ---
 
-**TensorFlow Project Showcase** aims to encourage everyone to explore the possibilities of Machine Learning using [TensorFlow](https://www.tensorflow.org/), an end-to-end open source platform for machine learning. This initiative aims to showcase Filipino talents in building applications that uses the capabilities of Machine Learning. This event is supported by **Google Developers**.
-
 ![TF Showcase](https://aipilipinas.org/images/tfshowcase.png)
+
+**TensorFlow Project Showcase** aims to encourage everyone to explore the possibilities of Machine Learning using [TensorFlow](https://www.tensorflow.org/), an end-to-end open source platform for machine learning. This initiative aims to showcase Filipino talents in building applications that uses the capabilities of Machine Learning.
 
 
 ## Mechanics
@@ -51,6 +51,10 @@ TBA | Text Classification in TensorFlow | TBA | TBA
 TBA | Image Classification in TensorFlow | TBA | TBA
 TBA | Building a TensorFlow Lite App | TBA | TBA
 TBA | Building a TensorFlow.JS App | TBA | TBA
+
+
+## Supported By
+![Google Developers](https://aipilipinas.org/images/sponsors/googledevelopers.png)
 
 <!-- 
 ![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
