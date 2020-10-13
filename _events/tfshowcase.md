@@ -37,7 +37,10 @@ November 27 | Deadline of Application Submission
 December 4 | Panel Judging and Public Voting
 December 11 | Announcement of Winners
 
-
+Cash Inflow | Outflow | Opening Balance
+--- | --- | ---
+*Monday* | `Tuesday` | **Wednesday**
+1 | 2 | 3
 
 ## Trainings and Workshop
 | Date | Topic                              | Speaker | Registraion Link |
