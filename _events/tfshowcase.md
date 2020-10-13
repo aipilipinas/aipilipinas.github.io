@@ -32,14 +32,14 @@ weight: 1
 ## Contest Schedule
 Date | Activity
 --- | ---
-October - November | Training and Workshop
+October to November | Training and Workshop
 November 27 | Deadline of Application Submission
 December 4 | Panel Judging and Public Voting
 December 11 | Announcement of Winners
 
-Cash Inflow | Outflow | Opening Balance
---- | --- | ---
-*Monday* | `Tuesday` | **Wednesday**
+Date | Activity
+--- | ---
+October to November | `Tuesday` | **Wednesday**
 1 | 2 | 3
 
 ## Trainings and Workshop
