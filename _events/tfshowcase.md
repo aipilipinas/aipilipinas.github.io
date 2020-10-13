@@ -30,12 +30,12 @@ weight: 1
 
 
 ## Contest Schedule
-| Date               | Activity                           |
-|--------------------|------------------------------------|
-| October - November | Training and Workshop              |
-| November 27        | Deadline of Application Submission |
-| December 4         | Panel Judging and Public Voting    |
-| December 11        | Announcement of Winners            |
+Date | Activity
+--- | ---
+October - November | Training and Workshop
+November 27 | Deadline of Application Submission
+December 4 | Panel Judging and Public Voting
+December 11 | Announcement of Winners
 
 
 
