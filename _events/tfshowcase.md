@@ -5,10 +5,9 @@ featured: true
 weight: 1
 ---
 
-![TF Showcase](https://aipilipinas.org/images/tfshowcase.png)
-
 **TensorFlow Project Showcase** aims to encourage everyone to explore the possibilities of Machine Learning using [TensorFlow](https://www.tensorflow.org/), an end-to-end open source platform for machine learning. This initiative aims to showcase Filipino talents in building applications that uses the capabilities of Machine Learning.
 
+![TF Showcase](https://aipilipinas.org/images/tfshowcase.png)
 
 ## Mechanics
 1. Participants can either be individuals or teams. Teams should consists of not more than three (3) members.
