@@ -13,7 +13,7 @@ weight: 1
 1. Participants can either be individuals or teams. Teams should consists of not more than three (3) members.
 2. Participants can submit multiple entries provided that all of them meet the eligibility criteria/ requirements.
 3. Participants must completely fill out and submit the Project Application Review Form. The application deadline is on November 27, 2020.
-4. Applications submitted should be your own original work and haven't been submitted to any contest. 
+4. Applications submitted should be your own original work and haven't been submitted to any contest. You can submit past projects or you can completely build a new one.
 5. Applications submitted to the contest should be publicly accesible via web or mobile, and must be an open-source project. Code should be uploaded to any publicly acessible repository such as Github.
 6. The winner will be selected based on a panel judging and public votes.
 
@@ -30,8 +30,6 @@ weight: 1
 ## Prizes
 - **Winners** will receive a support to take **[TensorFlow Developer Certificate](https://www.tensorflow.org/certificate)** which is worth 100USD
 - **All accepted applications** will also get a chance to win **prizes** such as Google Home Mini and Chromecast through our raffle!
-
-
 
 
 ## Contest Schedule
