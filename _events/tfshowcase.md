@@ -47,7 +47,7 @@ December 11 | Announcement of Winners
 
 Date | Time | Activity | Speaker | Register Here
 --- | --- | --- | --- | ---
-Oct. 23 | 7pm | Building your First Neural Network on TensorFlow | Rodolfo Ferro | TBA
+Oct. 23 | 7pm | Building your First Neural Network on TensorFlow | Rodolfo Ferro | [Link](http://bit.ly/tfworkshop-1)
 Oct. 30 | 7pm | Image Classification in TensorFlow | Rodolfo Ferro | TBA
 Oct. 31 | 1pm | Sequences, RNN in TensorFlow | Yogesh Kulkarni | TBA
 Nov. 7 | 1pm | Building a TensorFlow.JS App | Wenhe Li | TBA
