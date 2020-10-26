@@ -47,7 +47,7 @@ December 11 | Announcement of Winners
 
 Date | Time | Activity | Speaker | Stream Link
 --- | --- | --- | --- | ---
-Oct. 23 | 7pm | Building your First Neural Network on TensorFlow | Rodolfo Ferro | [YouTube](https://www.youtube.com/watch?v=WyTIbKWnl6E) [Facebook](https://www.youtube.com/watch?v=WyTIbKWnl6E)
+Oct. 23 | 7pm | Building your First Neural Network on TensorFlow | Rodolfo Ferro | [YouTube](https://www.youtube.com/watch?v=WyTIbKWnl6E) [Facebook](https://www.facebook.com/watch/live/?v=347987302952547)
 Oct. 30 | 7pm | Image Classification in TensorFlow | Rodolfo Ferro | [YouTube](https://www.youtube.com/watch?v=w_6mLDn_RbI) [Facebook](https://www.facebook.com/AIPilipinas/posts/873700633165134)
 Oct. 31 | 1pm | Sequences, RNN in TensorFlow | Yogesh Kulkarni | TBA
 Nov. 7 | 1pm | Building a TensorFlow.JS App | Wenhe Li | TBA
