@@ -50,7 +50,7 @@ Date | Time | Activity | Speaker | Livestream Link
 Oct. 23 | 7pm | Building your First Neural Network on TensorFlow | Rodolfo Ferro | [YouTube](https://www.youtube.com/watch?v=WyTIbKWnl6E) [Facebook](https://www.facebook.com/watch/live/?v=347987302952547)
 Oct. 30 | 7pm | Image Classification in TensorFlow | Rodolfo Ferro | [YouTube](https://www.youtube.com/watch?v=w_6mLDn_RbI) [Facebook](https://www.facebook.com/AIPilipinas/posts/873700633165134)
 Oct. 31 | 1pm | Sequences, RNN in TensorFlow | Yogesh Kulkarni | [YouTube](https://www.youtube.com/watch?v=qFrdm_9fjJY) [Facebook](https://www.facebook.com/AIPilipinas/posts/873935699808294)
-Nov. 7 | 1pm | Building a TensorFlow.JS App | Wenhe Li | TBA
+Nov. 7 | 1pm | Building a TensorFlow.JS App | Wenhe Li | [YouTube](https://www.youtube.com/watch?v=GZ4TYgNLoTA) [Facebook](https://www.facebook.com/239492583252612/posts/879669872568210/)
 Nov. 14 | 1pm | Building a TensorFlow Lite App | Henry Ruiz | TBA
 Nov. 14 | 3pm | Text Classification in TensorFlow | Thierno Ibrahima | TBA
 
