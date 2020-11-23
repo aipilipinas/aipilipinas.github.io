@@ -12,7 +12,7 @@ weight: 1
 ## Mechanics
 1. Participants can either be individuals or teams. Teams should consists of not more than three (3) members.
 2. Participants can submit multiple entries provided that all of them meet the eligibility criteria/ requirements.
-3. Participants must completely fill out and submit the Project Application Review Form. The application deadline is on November 27, 2020.
+3. Participants must completely fill out and submit the [Project Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSec9tvqn2iydC60jE4SS7lkjY7x4eoakQLtWCOkTENmh-5PWw/viewform). The application deadline is on November 27, 2020.
 4. Applications submitted should be your own original work and haven't been submitted to any contest. You can submit past projects or you can completely build a new one.
 5. Applications submitted to the contest should be publicly accesible via web or mobile, and must be an open-source project. Code should be uploaded to any publicly acessible repository such as Github.
 6. The winner will be selected based on a panel judging and public votes.
@@ -37,7 +37,7 @@ weight: 1
 Date | Activity
 --- | ---
 October to November | Training and Workshop
-November 27 | Deadline of Application Submission
+November 27 | Deadline of [Application Submission](https://docs.google.com/forms/d/e/1FAIpQLSec9tvqn2iydC60jE4SS7lkjY7x4eoakQLtWCOkTENmh-5PWw/viewform)
 December 4 | Panel Judging and Public Voting
 December 11 | Announcement of Winners
 
@@ -51,8 +51,8 @@ Oct. 23 | 7pm | Building your First Neural Network on TensorFlow | Rodolfo Ferro
 Oct. 30 | 7pm | Image Classification in TensorFlow | Rodolfo Ferro | [YouTube](https://www.youtube.com/watch?v=w_6mLDn_RbI) [Facebook](https://www.facebook.com/AIPilipinas/posts/873700633165134)
 Oct. 31 | 1pm | Sequences, RNN in TensorFlow | Yogesh Kulkarni | [YouTube](https://www.youtube.com/watch?v=qFrdm_9fjJY) [Facebook](https://www.facebook.com/AIPilipinas/posts/873935699808294)
 Nov. 7 | 1pm | Building a TensorFlow.JS App | Wenhe Li | [YouTube](https://www.youtube.com/watch?v=GZ4TYgNLoTA) [Facebook](https://www.facebook.com/239492583252612/posts/879669872568210/)
-Nov. 14 | 1pm | Building a TensorFlow Lite App | Henry Ruiz | TBA
-Nov. 14 | 3pm | Text Classification in TensorFlow | Thierno Ibrahima | TBA
+Nov. 14 | 1pm | Building a TensorFlow Lite App | Henry Ruiz | [YouTube](https://www.youtube.com/watch?v=G6sqRaqkF5U) [Facebook](https://www.facebook.com/239492583252612/posts/885112585357272/)
+Nov. 14 | 3pm | Text Classification in TensorFlow | Thierno Ibrahima | [YouTube](https://www.youtube.com/watch?v=DUxlIWr2T30) [Facebook](https://www.facebook.com/239492583252612/posts/886145321920665/)
 
 
 ## Resources
