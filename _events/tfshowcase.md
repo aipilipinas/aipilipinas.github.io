@@ -7,7 +7,7 @@ weight: 1
 
 **TensorFlow Project Showcase** aims to encourage everyone to explore the possibilities of Machine Learning using [TensorFlow](https://www.tensorflow.org/), an end-to-end open source platform for machine learning. This initiative aims to showcase Filipino talents in building applications that uses the capabilities of Machine Learning.
 
-![TF Showcase](https://aipilipinas.org/images/tfshowcase.png)
+![TF Showcase](https://aipilipinas.org/images/tfshowcase2.png)
 
 ## Mechanics
 1. Participants can either be individuals or teams. Teams should consists of not more than three (3) members.
@@ -36,21 +36,21 @@ weight: 1
 
 Date | Activity
 --- | ---
-October to November | Training and Workshop
-November 27 | Deadline of [Application Submission](https://docs.google.com/forms/d/e/1FAIpQLSec9tvqn2iydC60jE4SS7lkjY7x4eoakQLtWCOkTENmh-5PWw/viewform)
-December 4 | Panel Judging and Public Voting
-December 11 | Announcement of Winners
+October - November 2020 | Training and Workshop
+March 19, 2021 | Extended Deadline of [Application Submission](https://docs.google.com/forms/d/e/1FAIpQLSec9tvqn2iydC60jE4SS7lkjY7x4eoakQLtWCOkTENmh-5PWw/viewform)
+March 22-24, 2021  | Panel Judging and Public Voting
+March 27, 2021 | Networking Event
+March 28, 2021  | Announcement of Winners
 
 
 
 ## Trainings and Workshop
 
-Date | Time | Activity | Speaker | Livestream Link
+Date | Time | Activity | Speaker | Livestream Recording Link
 --- | --- | --- | --- | ---
 Oct. 23 | 7pm | Building your First Neural Network on TensorFlow | Rodolfo Ferro | [YouTube](https://www.youtube.com/watch?v=WyTIbKWnl6E) [Facebook](https://www.facebook.com/watch/live/?v=347987302952547)
 Oct. 30 | 7pm | Image Classification in TensorFlow | Rodolfo Ferro | [YouTube](https://www.youtube.com/watch?v=w_6mLDn_RbI) [Facebook](https://www.facebook.com/AIPilipinas/posts/873700633165134)
 Oct. 31 | 1pm | Sequences, RNN in TensorFlow | Yogesh Kulkarni | [YouTube](https://www.youtube.com/watch?v=qFrdm_9fjJY) [Facebook](https://www.facebook.com/AIPilipinas/posts/873935699808294)
-Nov. 7 | 1pm | Building a TensorFlow.JS App | Wenhe Li | [YouTube](https://www.youtube.com/watch?v=GZ4TYgNLoTA) [Facebook](https://www.facebook.com/239492583252612/posts/879669872568210/)
 Nov. 14 | 1pm | Building a TensorFlow Lite App | Henry Ruiz | [YouTube](https://www.youtube.com/watch?v=G6sqRaqkF5U) [Facebook](https://www.facebook.com/239492583252612/posts/885112585357272/)
 Nov. 14 | 3pm | Text Classification in TensorFlow | Thierno Ibrahima | [YouTube](https://www.youtube.com/watch?v=DUxlIWr2T30) [Facebook](https://www.facebook.com/239492583252612/posts/886145321920665/)
 
