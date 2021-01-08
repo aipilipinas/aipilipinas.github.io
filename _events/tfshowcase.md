@@ -1,6 +1,6 @@
 ---
 title: "TensorFlow Project Showcase"
-date: 2018-11-18T12:33:46+10:00
+date: 2020-10-18T12:33:46+10:00
 featured: true
 weight: 1
 ---
