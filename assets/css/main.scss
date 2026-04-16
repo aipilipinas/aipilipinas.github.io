@@ -177,3 +177,80 @@ table {
   border-left: 4px solid $primary-red;
   border-radius: 0;
 }
+
+/* Fix: About section heading red */
+.feature__item--left h2,
+.feature__item--right h2 {
+  color: $primary-red !important;
+}
+
+/* Fix: reduce gap above About section */
+.feature__wrapper {
+  margin-bottom: 0;
+}
+
+/* Fix: footer social icons all cream, no brand colors */
+.page__footer {
+  .social-icons .svg-inline--fa,
+  .social-icons .fab,
+  .social-icons .fas,
+  .social-icons svg {
+    color: #FFF8EE !important;
+    fill: #FFF8EE !important;
+  }
+
+  /* Fix: social link labels normal case */
+  .author__urls a,
+  footer a {
+    text-transform: none !important;
+    font-variant: normal !important;
+    letter-spacing: normal !important;
+  }
+}
+
+/* Fix: footer follow links normal case not uppercase */
+.page__footer-follow .social-icons li a {
+  text-transform: none !important;
+}
+
+.page__footer-follow li {
+  text-transform: none !important;
+  font-variant: normal !important;
+}
+
+/* Fix 1: Replace site title text with horizontal logo image */
+.site-title {
+  background-image: url('/assets/images/ai-pilipinas-logo-horizontal.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+  display: inline-block;
+  width: 180px;
+  height: 40px;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+/* Fix 2: Hero text readability — stronger text shadow */
+.page__hero--overlay {
+  .page__title {
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.85), 0 0 20px rgba(0,0,0,0.6) !important;
+    font-weight: 700;
+  }
+  .page__lead {
+    text-shadow: 1px 1px 6px rgba(0,0,0,0.9), 0 0 16px rgba(0,0,0,0.7) !important;
+    font-weight: 500;
+  }
+}
+
+/* Fix 3: "Join the Community" button — remove visited/active red state */
+.page__hero--overlay .btn:first-of-type,
+.page__hero--overlay .btn:first-of-type:visited,
+.page__hero--overlay .btn:first-of-type:active,
+.page__hero--overlay .btn:first-of-type:focus {
+  background: #FFF8EE !important;
+  color: $primary-red !important;
+  border-color: #FFF8EE !important;
+  text-decoration: none !important;
+}
+
