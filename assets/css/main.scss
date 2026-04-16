@@ -35,12 +35,12 @@ body {
 .greedy-nav {
   background: $primary-red !important;
 
-  a { color: #FFF8EE !important; }
+  a { color: #F0E0C8 !important; }
 
-  .visible-links a:before { background: #FFF8EE; }
+  .visible-links a:before { background: #F0E0C8; }
 
   button {
-    color: #FFF8EE;
+    color: #F0E0C8;
     background: transparent;
     border: none;
   }
@@ -55,6 +55,14 @@ body {
   text-align: center;
 }
 
+.page__hero--overlay .page__lead,
+.page__hero--overlay .page__excerpt {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 640px;
+}
+
 .page__hero--overlay {
   background-color: $primary-red;
 
@@ -65,10 +73,22 @@ body {
     text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
   }
 
-  .btn {
+  /* First button — filled cream */
+  .btn:first-of-type {
+    background: #FFF8EE !important;
+    color: $primary-red !important;
     border-color: #FFF8EE !important;
-    color: #FFF8EE !important;
+    &:hover {
+      background: $cream-dark !important;
+      border-color: $cream-dark !important;
+    }
+  }
+
+  /* Second button — outlined */
+  .btn:last-of-type {
     background: transparent !important;
+    color: #FFF8EE !important;
+    border-color: #FFF8EE !important;
     &:hover {
       background: #FFF8EE !important;
       color: $primary-red !important;
