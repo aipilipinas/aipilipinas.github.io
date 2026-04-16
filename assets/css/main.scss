@@ -72,28 +72,6 @@ body {
     color: #FFF8EE;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
   }
-
-  /* First button — filled cream */
-  .btn:first-of-type {
-    background: #FFF8EE !important;
-    color: $primary-red !important;
-    border-color: #FFF8EE !important;
-    &:hover {
-      background: $cream-dark !important;
-      border-color: $cream-dark !important;
-    }
-  }
-
-  /* Second button — outlined */
-  .btn:last-of-type {
-    background: transparent !important;
-    color: #FFF8EE !important;
-    border-color: #FFF8EE !important;
-    &:hover {
-      background: #FFF8EE !important;
-      color: $primary-red !important;
-    }
-  }
 }
 
 a {
@@ -243,14 +221,28 @@ table {
   }
 }
 
-/* Fix 3: "Join the Community" button — remove visited/active red state */
+/* Fix 3: Both hero buttons — outlined white, matching Explore Programs style */
+.page__hero--overlay .btn,
+.page__hero--overlay .btn:visited,
+.page__hero--overlay .btn:active,
+.page__hero--overlay .btn:focus,
 .page__hero--overlay .btn:first-of-type,
 .page__hero--overlay .btn:first-of-type:visited,
 .page__hero--overlay .btn:first-of-type:active,
-.page__hero--overlay .btn:first-of-type:focus {
+.page__hero--overlay .btn:first-of-type:focus,
+.page__hero--overlay .btn:last-of-type,
+.page__hero--overlay .btn:last-of-type:visited,
+.page__hero--overlay .btn:last-of-type:active,
+.page__hero--overlay .btn:last-of-type:focus {
+  background: transparent !important;
+  color: #FFF8EE !important;
+  border: 2px solid #FFF8EE !important;
+  text-decoration: none !important;
+}
+
+.page__hero--overlay .btn:hover {
   background: #FFF8EE !important;
   color: $primary-red !important;
   border-color: #FFF8EE !important;
-  text-decoration: none !important;
 }
 
