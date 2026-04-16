@@ -7,12 +7,14 @@ remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 title: "AI Pilipinas"
 name: "AI Pilipinas"
 description: "Empowering Filipinos through Artificial Intelligence — community, education, and innovation."
-url: "https://aipilipinas.ph"  # Replace with your GitHub username/org
+url: "https://aipilipinas.github.io"  # Replace with your GitHub username/org
 baseurl: ""  # Leave blank for user/org pages (USERNAME.github.io)
 repository: "aipilipinas/aipilipinas.github.io"  # Replace with your repo
 
 # Theme skin — we use a custom red/cream override (see assets/css/main.scss)
 minimal_mistakes_skin: "default"
+
+search: false
 
 # Locale & SEO
 locale: "en-PH"
@@ -81,10 +83,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
-
-#Pagination
-search: false
 
 # Pagination
 paginate: 6

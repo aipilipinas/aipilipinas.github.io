@@ -1,79 +1,87 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-/* ==========================================================================
-   AI Pilipinas — Custom Red & Cream skin for Minimal Mistakes
-   ========================================================================== */
-
-/* Import the Minimal Mistakes default styles first */
 @import "minimal-mistakes/skins/default";
 @import "minimal-mistakes";
 
-/* ---- Color palette ---- */
-$primary-red:    #8B1A1A;   /* deep Filipino red */
-$primary-red-dk: #6B1212;   /* hover / active state */
-$cream:          #FDF6EC;   /* warm off-white page background */
-$cream-dark:     #F0E8D5;   /* slightly deeper cream for contrast areas */
-$text-dark:      #1A1208;   /* near-black text */
-$text-mid:       #4A3728;   /* warm mid-tone text */
-$gold-accent:    #C9913A;   /* warm gold accent — links, highlights */
+$primary-red:    #8B1A1A;
+$primary-red-dk: #6B1212;
+$cream:          #FDF6EC;
+$cream-dark:     #F0E8D5;
+$text-dark:      #1A1208;
+$text-mid:       #4A3728;
+$gold-accent:    #C9913A;
 
-/* ---- Global overrides ---- */
-
-/* Page background */
 body {
   background-color: $cream;
   color: $text-dark;
 }
 
-/* Masthead / top navigation */
 .masthead {
   background-color: $primary-red !important;
   border-bottom: 3px solid $primary-red-dk;
 
-  a,
-  .masthead__menu-item a {
+  a, .masthead__menu-item a {
     color: #FFF8EE !important;
-    &:hover {
-      color: $cream-dark !important;
-      text-decoration: underline;
-    }
+    &:hover { color: $cream-dark !important; }
   }
 
   .site-title {
     color: #FFF8EE !important;
     font-weight: 700;
-    letter-spacing: 0.02em;
   }
+}
 
-  .greedy-nav button {
+.greedy-nav {
+  background: $primary-red !important;
+
+  a { color: #FFF8EE !important; }
+
+  .visible-links a:before { background: #FFF8EE; }
+
+  button {
     color: #FFF8EE;
+    background: transparent;
+    border: none;
   }
 }
 
-/* Greedy nav active/current link */
-.greedy-nav .visible-links a:before {
-  background: $cream-dark;
+/* Fix: hide search box overlay in nav */
+.search__toggle { display: none; }
+.greedy-nav .search { display: none; }
+
+/* Fix: center hero text */
+.page__hero--overlay .wrapper {
+  text-align: center;
 }
 
-/* Site title in masthead */
-.site-title {
-  color: #FFF8EE !important;
+.page__hero--overlay {
+  background-color: $primary-red;
+
+  .page__title,
+  .page__meta,
+  .page__lead {
+    color: #FFF8EE;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+  }
+
+  .btn {
+    border-color: #FFF8EE !important;
+    color: #FFF8EE !important;
+    background: transparent !important;
+    &:hover {
+      background: #FFF8EE !important;
+      color: $primary-red !important;
+    }
+  }
 }
 
-/* Links */
 a {
   color: $primary-red;
-  &:hover {
-    color: $primary-red-dk;
-  }
-  &:visited {
-    color: darken($primary-red, 10%);
-  }
+  &:hover { color: $primary-red-dk; }
+  &:visited { color: darken($primary-red, 10%); }
 }
 
-/* Buttons — primary */
 .btn--primary {
   background-color: $primary-red !important;
   border-color: $primary-red !important;
@@ -84,158 +92,68 @@ a {
   }
 }
 
-/* Buttons — default/outline */
-.btn--default,
-.btn {
-  border-color: $primary-red;
-  color: $primary-red;
+/* Fix: feature card headings red */
+.feature__item h2 {
+  color: $primary-red !important;
+}
+
+.feature__item .btn {
+  background-color: $primary-red !important;
+  border-color: $primary-red !important;
+  color: #FFF8EE !important;
   &:hover {
-    background-color: $primary-red;
-    color: #FFF8EE;
+    background-color: $primary-red-dk !important;
+    border-color: $primary-red-dk !important;
   }
 }
 
-/* Splash page hero overlay */
-.page__hero--overlay {
-  background-color: $primary-red;
+.page__title { color: $primary-red; }
 
-  .page__title,
-  .page__meta,
-  .page__lead {
-    color: #FFF8EE;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
-  }
-}
+.toc__menu a { color: $text-mid; &:hover { color: $primary-red; } }
+.toc .nav__title { background: $primary-red; color: #FFF8EE; }
 
-/* Page header */
-.page__title {
-  color: $primary-red;
-}
+.author__name { color: $primary-red; }
 
-/* Table of contents */
-.toc__menu a {
-  color: $text-mid;
-  &:hover {
-    color: $primary-red;
-  }
-}
-
-.toc .nav__title {
-  background: $primary-red;
-  color: #FFF8EE;
-}
-
-/* Sidebar author profile */
-.author__name {
-  color: $primary-red;
-}
-
-/* Footer */
 .page__footer {
   background-color: $primary-red;
   color: #FFF8EE;
-
-  a {
-    color: $cream-dark;
-    &:hover {
-      color: #FFF;
-    }
-  }
-
-  footer {
-    color: #FFF8EE;
-  }
+  a { color: $cream-dark; &:hover { color: #FFF; } }
+  footer { color: #FFF8EE; }
 }
 
-/* Pagination */
 .pagination--pager {
   color: $primary-red;
   border-color: $primary-red;
-  &:hover {
-    background: $primary-red;
-    color: #FFF8EE;
-  }
+  &:hover { background: $primary-red; color: #FFF8EE; }
 }
 
-/* Tags and categories */
 .page__taxonomy-item a {
   color: $primary-red;
   border-color: $primary-red;
-  &:hover {
-    background: $primary-red;
-    color: #FFF8EE;
-  }
+  &:hover { background: $primary-red; color: #FFF8EE; }
 }
 
-/* Archive item titles */
 .archive__item-title a {
   color: $primary-red;
-  &:hover {
-    color: $primary-red-dk;
-  }
+  &:hover { color: $primary-red-dk; }
 }
 
-/* Horizontal rules */
-hr {
-  border-color: $cream-dark;
-}
+hr { border-color: $cream-dark; }
 
-/* Blockquotes */
 blockquote {
   border-left: 4px solid $gold-accent;
   background: $cream-dark;
   color: $text-mid;
+  border-radius: 0;
 }
 
-/* Code blocks */
-pre.highlight,
-figure.highlight {
-  background: #2B1A0F;  /* dark warm background for code */
-}
-
-/* Tables */
 table {
-  th {
-    background: $primary-red;
-    color: #FFF8EE;
-  }
-  tr:nth-child(even) td {
-    background: $cream-dark;
-  }
+  th { background: $primary-red; color: #FFF8EE; }
+  tr:nth-child(even) td { background: $cream-dark; }
 }
 
-/* Feature row buttons */
-.feature__item .btn {
-  background-color: $primary-red;
-  border-color: $primary-red;
-  color: #FFF8EE;
-  &:hover {
-    background-color: $primary-red-dk;
-    border-color: $primary-red-dk;
-  }
-}
-
-/* Search toggle */
-.search__toggle {
-  color: #FFF8EE;
-}
-
-/* Notices */
 .notice--primary {
   background: lighten($primary-red, 55%);
   border-left: 4px solid $primary-red;
-}
-
-scss/* Fix nav link visibility */
-.greedy-nav a {
-  color: #FFF8EE !important;
-}
-
-.greedy-nav .visible-links a:before {
-  background: #FFF8EE;
-}
-
-/* Remove search button from nav */
-.search__toggle {
-  display: none;
+  border-radius: 0;
 }
