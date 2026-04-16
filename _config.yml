@@ -82,6 +82,10 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+
+#Pagination
+search: false
+
 # Pagination
 paginate: 6
 paginate_path: /news/page:num/
