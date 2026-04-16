@@ -1,46 +1,108 @@
-baseurl: ''
-exclude: ['README.md']
-permalink: pretty
-title: 'AI Pilipinas'
+# AI Pilipinas — Jekyll + Minimal Mistakes config
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 
-google_analytics_id: null
-homepage:
-  show_call_box: false
-logo:
-  mobile: "images/logo/logo.png"
-  desktop: "images/logo/logo.png"
-  desktop_height: "36px"
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+
+# Site settings
+title: "AI Pilipinas"
+name: "AI Pilipinas"
+description: "Empowering Filipinos through Artificial Intelligence — community, education, and innovation."
+url: "https://aipilipinas.ph"  # Replace with your GitHub username/org
+baseurl: ""  # Leave blank for user/org pages (USERNAME.github.io)
+repository: "aipilipinas/aipilipinas.github.io"  # Replace with your repo
+
+# Theme skin — we use a custom red/cream override (see assets/css/main.scss)
+minimal_mistakes_skin: "default"
+
+# Locale & SEO
+locale: "en-PH"
+words_per_minute: 200
+timezone: "Asia/Manila"
+
+# Author info (shown in sidebar/bio)
+author:
+  name: "AI Pilipinas"
+  avatar: "/assets/images/ai-pilipinas-logo.png"
+  bio: "A community of Filipino AI practitioners, researchers, students, and enthusiasts."
+  location: "Philippines"
+  links:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://facebook.com/aipilipinas"
+    - label: "Twitter / X"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/aipilipinas"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/company/aipilipinas"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/aipilipinas"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:hello@aipilipinas.org"
+
+# Footer links
 footer:
-  copyright_text: 'Copyright © 2020'
+  links:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://facebook.com/aipilipinas"
+    - label: "Twitter / X"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/aipilipinas"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/aipilipinas"
 
-seo:
-  meta_og_title: "AI Pilipinas"
-  meta_og_type: "website"
-  meta_og_url: "https://www.aipilipinas.org"
-  meta_og_image: "https://aipilipinas.org/images/bg.png"
-  meta_og_description: "AI Pilipinas is a tech community which aims to share knowledge amongsts its members to help upskill Filipinos on Machine Learning and Artificial Intelligence. The group is run by a group of volunteers."
-  # meta_twitter_card: "summary"
-  # meta_twitter_site: "@zerostaticio"
-  # meta_twitter_creator: "@zerostaticio"
+# Reading files
+include:
+  - .htaccess
+  - _pages
 
-collections:
-  events:
-    output: true
-    permalink: /events/:path/
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CHANGELOG.md
 
-defaults:
-  - scope:
-      type: events
-    values:
-      layout: service
-      bodyClass: page-services-single
-  - scope:
-      path: 'images'
-    values:
-      image: true
-
-sass:
-  style: compact # possible values: nested expanded compact compressed
-
+# Plugins (GitHub Pages whitelist)
 plugins:
-  - jekyll-environment-variables
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Pagination
+paginate: 6
+paginate_path: /news/page:num/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false

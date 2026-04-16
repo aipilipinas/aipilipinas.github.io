@@ -1,0 +1,64 @@
+---
+layout: splash
+permalink: /
+hidden: true
+header:
+  overlay_color: "#8B1A1A"
+  overlay_filter: "0.6"
+  overlay_image: /assets/images/hero-bg.jpg
+  actions:
+    - label: "Join the Community"
+      url: "/community/"
+    - label: "Explore Programs"
+      url: "/programs/"
+excerpt: >
+  Empowering Filipinos through Artificial Intelligence.<br />
+  Community · Education · Innovation.
+
+intro:
+  - excerpt: >
+      AI Pilipinas is a grassroots community of Filipino AI practitioners, researchers,
+      students, and enthusiasts. We believe every Filipino deserves access to AI knowledge
+      and the opportunity to shape how AI develops in the Philippines.
+
+feature_row:
+  - image_path: /assets/images/feature-community.jpg
+    alt: "Community"
+    title: "Community"
+    excerpt: "Connect with thousands of Filipino AI enthusiasts, researchers, and practitioners across the country."
+    url: "/community/"
+    btn_label: "Meet the Community"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/feature-programs.jpg
+    alt: "Programs"
+    title: "Programs & Learning"
+    excerpt: "Free workshops, bootcamps, and learning resources — from AI basics to advanced machine learning."
+    url: "/programs/"
+    btn_label: "View Programs"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/feature-events.jpg
+    alt: "Events"
+    title: "Events"
+    excerpt: "Meetups, conferences, and hackathons happening across the Philippines. Join us in person or online."
+    url: "/events/"
+    btn_label: "See Events"
+    btn_class: "btn--primary"
+
+feature_row2:
+  - image_path: /assets/images/about-bg.jpg
+    alt: "About AI Pilipinas"
+    title: "About AI Pilipinas"
+    excerpt: >
+      Founded to bridge the gap between AI technology and Filipino communities,
+      AI Pilipinas has grown into one of the most active AI communities in Southeast Asia.
+      Our mission: make AI accessible, inclusive, and beneficial for all Filipinos.
+    url: "/about/"
+    btn_label: "Our Story"
+    btn_class: "btn--primary"
+---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
+
+{% include feature_row id="feature_row2" type="left" %}
